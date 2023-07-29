@@ -1,0 +1,281 @@
+.header {
+    width: 100%;
+    background-color: rgb(102, 147, 225);
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-info {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    cursor: pointer;
+}
+
+.header-icon {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+/* Navbar */
+
+.navbar {
+    width: 100%;
+    background-color: whitesmoke;
+    border-bottom: 1px solid;
+}
+
+
+.headerr {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 40px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+}
+
+.nav-options {
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+}
+
+.mobile-option {
+    display: none;
+}
+
+.option {
+    width: 25%;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.option-three {
+    display: flex;
+}
+
+.option-three ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.option-three ul li {
+    padding: 20px 28px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+/* Body */
+
+.body {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 30%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(102, 147, 225);
+    color: #fff;
+    border: 2px solid rgb(102, 147, 225);
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: rgb(102, 147, 225);
+}
+
+.body-two {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    justify-content: center;
+}
+
+.body2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.style-icon {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.iconstyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.iconstyle p {
+    font-size: 18px;
+}
+
+
+.third {
+    width: 100%;
+    height: 600px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dot1 {
+    width: 30%;
+    height: 15%;
+    text-align: center;
+}
+
+.dot2 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dot3 {
+    width: 50%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner {
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    position: relative;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+}
+
+.set {
+    width: 60px;
+    height: 60px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    position: absolute;
+    top: -30px;
+    left: 40%;
+    background-color: whitesmoke;
+}
+
+.bannertext {
+    text-align: center;
+}
+
+
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footertext {
+    width: 30%;
+    color: white;
+}
+
+.footersearch {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 70%;
+    padding: 12px;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+}
